@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Font';
+  src: local('Font'), url('./fonts/PFKidsPro-GradeOne.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: no-common-ligatures proportional-nums;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: repeat-y url('photo/background/background.png');
+  font-family: 'Font', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

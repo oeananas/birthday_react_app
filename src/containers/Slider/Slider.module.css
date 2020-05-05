@@ -1,0 +1,31 @@
+.Image {
+    border-radius: 10px;
+}
+
+@media all
+and (min-width:960px) {
+    .ImageContainer {
+        width: 100%;
+        padding: 10% 25%;
+        margin: auto;
+    }
+}
+
+@media only screen
+and (max-device-width: 600px) {
+    .ImageContainer {
+        width: 100%;
+        padding: 5%;
+        margin: auto;
+    }
+}
+
+@media only screen
+and (max-device-width: 1000px) {
+    .ImageContainer {
+        width: 100%;
+        padding: 5%;
+        margin: auto;
+    }
+}
+
